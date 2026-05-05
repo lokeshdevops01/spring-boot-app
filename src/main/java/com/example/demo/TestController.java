@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/")
     public String home() {
-        return "App is running from Docker!";
+        return "Hi, App is running from Docker!";
     }
 }
